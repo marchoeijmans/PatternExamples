@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10">
+   <Targets>
+      <Target Name="D:\ProtoTypes\IteratorPattern\IteratorPattern\bin\Debug\IteratorPattern.exe">
+         <Modules>
+            <Module Name="IteratorPattern.exe" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+               <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="LinesOfCode" Value="38" />
+               </Metrics>
+               <Namespaces>
+                  <Namespace Name="IteratorPattern.Pattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="90" />
+                        <Metric Name="CyclomaticComplexity" Value="17" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="DepthOfInheritance" Value="2" />
+                        <Metric Name="LinesOfCode" Value="27" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="IVicePresidentIterator">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="0" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Next() : VicePresident">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="HasNext() : bool">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Remove() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="DivisionIterator">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="84" />
+                              <Metric Name="CyclomaticComplexity" Value="6" />
+                              <Metric Name="ClassCoupling" Value="3" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="10" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="DivisionIterator(VicePresident[])" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\DivisionIterator.cs" Line="11">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Next() : VicePresident" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\DivisionIterator.cs" Line="19">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="HasNext() : bool" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\DivisionIterator.cs" Line="24">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="77" />
+                                    <Metric Name="CyclomaticComplexity" Value="3" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Remove() : void" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\DivisionIterator.cs" Line="36">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="VicePresident">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="85" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="VicePresident(string, string)" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\VicePresident.cs" Line="12">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetName() : string" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\VicePresident.cs" Line="19">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Print() : void" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\VicePresident.cs" Line="24">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="92" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Division">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="83" />
+                              <Metric Name="CyclomaticComplexity" Value="4" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="10" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Division(string)" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\Division.cs" Line="11">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="76" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetName() : string" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\Division.cs" Line="20">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Add(string) : void" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\Division.cs" Line="25">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="82" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Iterator() : DivisionIterator" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\Division.cs" Line="31">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SalesDivision">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="98" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SalesDivision(string)" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Pattern\SalesDivision.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="IteratorPattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="11" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Program">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="71" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="5" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="11" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Main(string[]) : void" File="D:\ProtoTypes\IteratorPattern\IteratorPattern\Program.cs" Line="13">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="63" />
+                                    <Metric Name="CyclomaticComplexity" Value="2" />
+                                    <Metric Name="ClassCoupling" Value="5" />
+                                    <Metric Name="LinesOfCode" Value="10" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Program()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+               </Namespaces>
+            </Module>
+         </Modules>
+      </Target>
+   </Targets>
+</CodeMetricsReport>

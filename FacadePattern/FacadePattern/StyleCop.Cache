@@ -1,0 +1,42 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 20:52:36</timestamp>
+      <milliseconds>484</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 21:51:37</timestamp>
+    <milliseconds>234</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="79851631">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="SimpleProductFacade.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 20:52:36</timestamp>
+      <milliseconds>484</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 21:52:07</timestamp>
+    <milliseconds>972</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DifficultProduct.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 20:52:36</timestamp>
+      <milliseconds>484</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 21:52:07</timestamp>
+    <milliseconds>884</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 20:52:36</timestamp>
+      <milliseconds>484</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 21:52:08</timestamp>
+    <milliseconds>39</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

@@ -1,0 +1,96 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="RentalMethods.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/02/2012 21:16:53</timestamp>
+    <milliseconds>704</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:26:18</timestamp>
+    <milliseconds>104</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:26:18</timestamp>
+    <milliseconds>544</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="52344474">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="FullyRentedState.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:19</timestamp>
+    <milliseconds>798</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GotApplicationState.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:19</timestamp>
+    <milliseconds>927</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IAutomat.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:20</timestamp>
+    <milliseconds>18</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IState.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:20</timestamp>
+    <milliseconds>94</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="WaitingState.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:20</timestamp>
+    <milliseconds>163</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ApartmentRentedState.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:19</timestamp>
+    <milliseconds>542</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Automat.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/02/2012 20:48:39</timestamp>
+      <milliseconds>508</milliseconds>
+    </settings>
+    <timestamp>01/03/2012 20:27:20</timestamp>
+    <milliseconds>360</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

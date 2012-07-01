@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10">
+   <Targets>
+      <Target Name="D:\ProtoTypes\CommandPattern\CommandPattern\bin\Debug\CommandPattern.exe">
+         <Modules>
+            <Module Name="CommandPattern.exe" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+               <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="88" />
+                  <Metric Name="CyclomaticComplexity" Value="35" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="72" />
+               </Metrics>
+               <Namespaces>
+                  <Namespace Name="CommandPattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="57" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="33" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Program">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="57" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="8" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="33" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Main(string[]) : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Program.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="48" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="8" />
+                                    <Metric Name="LinesOfCode" Value="32" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Program()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="CommandPattern.Pattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="33" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="39" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="IReceiver">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="5" />
+                              <Metric Name="ClassCoupling" Value="0" />
+                              <Metric Name="DepthOfInheritance" Value="0" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Connect() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Diagnostics() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Reboot() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Shutdown() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Disconnect() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="AsiaServer">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="95" />
+                              <Metric Name="CyclomaticComplexity" Value="6" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="AsiaServer()" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Connect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="12">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Diagnostics() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="17">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Reboot() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="22">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Shutdown() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="27">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Disconnect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\AsiaServer.cs" Line="32">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="EuroServer">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="95" />
+                              <Metric Name="CyclomaticComplexity" Value="6" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="EuroServer()" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Connect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="12">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Diagnostics() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="17">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Reboot() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="22">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Shutdown() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="27">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Disconnect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\EuroServer.cs" Line="32">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="USServer">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="95" />
+                              <Metric Name="CyclomaticComplexity" Value="6" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="USServer()" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Connect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="12">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Diagnostics() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="17">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Reboot() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="22">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Shutdown() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="27">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Disconnect() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\USServer.cs" Line="32">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ICommand">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="0" />
+                              <Metric Name="DepthOfInheritance" Value="0" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Execute() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ShutdownCommand">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="81" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="3" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="ShutdownCommand(IReceiver)" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\ShutdownCommand.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Execute() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\ShutdownCommand.cs" Line="15">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="78" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="RunDiagnosticsCommand">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="81" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="3" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="RunDiagnosticsCommand(IReceiver)" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\RunDiagnosticsCommand.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Execute() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\RunDiagnosticsCommand.cs" Line="15">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="78" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="RebootCommand">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="81" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="3" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="6" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="RebootCommand(IReceiver)" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\RebootCommand.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Execute() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\RebootCommand.cs" Line="15">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="78" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Invoker">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="95" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="3" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Invoker()" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\Invoker.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SetCommand(ICommand) : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\Invoker.cs" Line="12">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="95" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Run() : void" File="D:\ProtoTypes\CommandPattern\CommandPattern\Pattern\Invoker.cs" Line="17">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+               </Namespaces>
+            </Module>
+         </Modules>
+      </Target>
+   </Targets>
+</CodeMetricsReport>

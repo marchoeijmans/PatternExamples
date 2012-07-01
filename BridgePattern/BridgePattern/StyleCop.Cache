@@ -1,0 +1,60 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="Abstraction.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:31:31</timestamp>
+    <milliseconds>96</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IBridge.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:31:31</timestamp>
+    <milliseconds>179</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ImplementationA.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:31:31</timestamp>
+    <milliseconds>243</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:31:31</timestamp>
+    <milliseconds>434</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:30:49</timestamp>
+    <milliseconds>732</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1100440784">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="ImplementationB.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/08/2012 16:29:18</timestamp>
+      <milliseconds>822</milliseconds>
+    </settings>
+    <timestamp>01/08/2012 16:31:46</timestamp>
+    <milliseconds>506</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

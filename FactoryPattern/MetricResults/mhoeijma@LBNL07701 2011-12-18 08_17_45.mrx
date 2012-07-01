@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10">
+   <Targets>
+      <Target Name="D:\ProtoTypes\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe">
+         <Modules>
+            <Module Name="FactoryPattern.exe" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+               <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="31" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="LinesOfCode" Value="78" />
+               </Metrics>
+               <Namespaces>
+                  <Namespace Name="FactoryPattern.GofFactory">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="19" />
+                        <Metric Name="ClassCoupling" Value="10" />
+                        <Metric Name="DepthOfInheritance" Value="2" />
+                        <Metric Name="LinesOfCode" Value="26" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Connection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="91" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="5" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Connection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\Connection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="open() : string" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\Connection.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="close() : string" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\Connection.cs" Line="14">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="MySqlConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="MySqlConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\MySqlConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ConnectionFactory">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="ConnectionFactory()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\ConnectionFactory.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="createConnection(ConnectionType) : Connection">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SecureConnectionFactory">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="79" />
+                              <Metric Name="CyclomaticComplexity" Value="4" />
+                              <Metric Name="ClassCoupling" Value="6" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="7" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="createConnection(ConnectionType) : Connection" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\SecureConnectionFactory.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="70" />
+                                    <Metric Name="CyclomaticComplexity" Value="3" />
+                                    <Metric Name="ClassCoupling" Value="5" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SecureConnectionFactory()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="OracleConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="OracleConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\OracleConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SecureSqlServerConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SecureSqlServerConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\SecureSqlServerConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ConnectionType">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="0" />
+                              <Metric Name="ClassCoupling" Value="0" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members />
+                        </Type>
+                        <Type Name="UnSecureConnectionFactory">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="79" />
+                              <Metric Name="CyclomaticComplexity" Value="4" />
+                              <Metric Name="ClassCoupling" Value="6" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="7" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="createConnection(ConnectionType) : Connection" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\UnSecureConnectionFactory.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="70" />
+                                    <Metric Name="CyclomaticComplexity" Value="3" />
+                                    <Metric Name="ClassCoupling" Value="5" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="UnSecureConnectionFactory()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SqlServerConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SqlServerConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\SqlServerConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SecureMySqlConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SecureMySqlConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\SecureMySqlConnection.cs" Line="16">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SecureOracleConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SecureOracleConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\GofFactory\SecureOracleConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="FactoryPattern.NormalFactory">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="94" />
+                        <Metric Name="CyclomaticComplexity" Value="10" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="DepthOfInheritance" Value="2" />
+                        <Metric Name="LinesOfCode" Value="16" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Connection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="91" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="5" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Connection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\Connection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="open() : string" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\Connection.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="close() : string" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\Connection.cs" Line="14">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="MySqlConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="MySqlConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\MySqlConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="OracleConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="OracleConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\OracleConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="SqlServerConnection">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="1" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="2" />
+                              <Metric Name="LinesOfCode" Value="1" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="SqlServerConnection()" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\SqlServerConnection.cs" Line="6">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ConnectionFactory">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="75" />
+                              <Metric Name="CyclomaticComplexity" Value="4" />
+                              <Metric Name="ClassCoupling" Value="5" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="8" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="ConnectionFactory(ConnectionType)" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\ConnectionFactory.cs" Line="8">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="createConnection() : Connection" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\NormalFactory\ConnectionFactory.cs" Line="14">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="70" />
+                                    <Metric Name="CyclomaticComplexity" Value="3" />
+                                    <Metric Name="ClassCoupling" Value="5" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ConnectionType">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="0" />
+                              <Metric Name="ClassCoupling" Value="0" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members />
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="FactoryPattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="54" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="36" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Program">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="54" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="6" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="36" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Main(string[]) : void" File="D:\ProtoTypes\FactoryPattern\FactoryPattern\Program.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="46" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="6" />
+                                    <Metric Name="LinesOfCode" Value="35" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Program()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+               </Namespaces>
+            </Module>
+         </Modules>
+      </Target>
+   </Targets>
+</CodeMetricsReport>

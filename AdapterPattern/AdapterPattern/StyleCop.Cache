@@ -1,0 +1,69 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 17:18:22</timestamp>
+    <milliseconds>342</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="OldSystem.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:20:38</timestamp>
+    <milliseconds>309</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:37:57</timestamp>
+    <milliseconds>126</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="OldSystemToNewSystemAdapter.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:33:40</timestamp>
+    <milliseconds>141</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="NewSystem.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:25:05</timestamp>
+    <milliseconds>627</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="INewSystem.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:41:36</timestamp>
+    <milliseconds>628</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="1537331821">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="IOldSystem.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 17:19:30</timestamp>
+      <milliseconds>493</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 20:41:50</timestamp>
+    <milliseconds>210</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

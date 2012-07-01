@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10">
+   <Targets>
+      <Target Name="D:\ProtoTypes\MediatorPattern\MediatorPattern\bin\Debug\MediatorPattern.exe">
+         <Modules>
+            <Module Name="MediatorPattern.exe" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+               <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="78" />
+                  <Metric Name="CyclomaticComplexity" Value="22" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="57" />
+               </Metrics>
+               <Namespaces>
+                  <Namespace Name="MediatorPattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="84" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Program">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="84" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="3" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="4" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Main(string[]) : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Program.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="79" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="3" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Program()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="MediatorPattern.Pattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="20" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="53" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Welcome">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="75" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="9" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Welcome(Mediator)" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Welcome.cs" Line="8">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Go() : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Welcome.cs" Line="16">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="70" />
+                                    <Metric Name="CyclomaticComplexity" Value="2" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Exit">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="94" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="3" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Exit(Mediator)" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Exit.cs" Line="9">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Go() : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Exit.cs" Line="15">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="98" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Purchase">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="75" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="8" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Purchase(Mediator)" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Purchase.cs" Line="8">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Go() : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Purchase.cs" Line="16">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="72" />
+                                    <Metric Name="CyclomaticComplexity" Value="2" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="5" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Mediator">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="66" />
+                              <Metric Name="CyclomaticComplexity" Value="9" />
+                              <Metric Name="ClassCoupling" Value="4" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="24" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Mediator()" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Mediator.cs" Line="11">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="72" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="4" />
+                                    <Metric Name="LinesOfCode" Value="5" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Handle(string) : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Mediator.cs" Line="20">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="57" />
+                                    <Metric Name="CyclomaticComplexity" Value="7" />
+                                    <Metric Name="ClassCoupling" Value="3" />
+                                    <Metric Name="LinesOfCode" Value="17" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetWelcome() : Welcome" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Mediator.cs" Line="48">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Shop">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="75" />
+                              <Metric Name="CyclomaticComplexity" Value="3" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="9" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Shop(Mediator)" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Shop.cs" Line="8">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Go() : void" File="D:\ProtoTypes\MediatorPattern\MediatorPattern\Pattern\Shop.cs" Line="16">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="70" />
+                                    <Metric Name="CyclomaticComplexity" Value="2" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+               </Namespaces>
+            </Module>
+         </Modules>
+      </Target>
+   </Targets>
+</CodeMetricsReport>

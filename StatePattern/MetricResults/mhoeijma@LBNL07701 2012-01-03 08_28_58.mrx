@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10">
+   <Targets>
+      <Target Name="D:\ProtoTypes\StatePattern\StatePattern\bin\Debug\StatePattern.exe">
+         <Modules>
+            <Module Name="StatePattern.exe" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+               <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="73" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="LinesOfCode" Value="132" />
+               </Metrics>
+               <Namespaces>
+                  <Namespace Name="StatePattern.Pattern.AfterRefactor">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="88" />
+                        <Metric Name="CyclomaticComplexity" Value="48" />
+                        <Metric Name="ClassCoupling" Value="10" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="76" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="IState">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="4" />
+                              <Metric Name="ClassCoupling" Value="0" />
+                              <Metric Name="DepthOfInheritance" Value="0" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="GotApplication() : string">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : string">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : string">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : string">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="ApartmentRentedState">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="79" />
+                              <Metric Name="CyclomaticComplexity" Value="6" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="15" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="ApartmentRentedState(IAutomat)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\ApartmentRentedState.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GotApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\ApartmentRentedState.cs" Line="13">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\ApartmentRentedState.cs" Line="18">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\ApartmentRentedState.cs" Line="23">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="79" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\ApartmentRentedState.cs" Line="29">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="71" />
+                                    <Metric Name="CyclomaticComplexity" Value="2" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="6" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="IAutomat">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="100" />
+                              <Metric Name="CyclomaticComplexity" Value="10" />
+                              <Metric Name="ClassCoupling" Value="1" />
+                              <Metric Name="DepthOfInheritance" Value="0" />
+                              <Metric Name="LinesOfCode" Value="0" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="GotApplication() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SetState(IState) : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetWaitingState() : IState">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetGotApplicationState() : IState">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetApartmentRentedState() : IState">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetFullyRentedState() : IState">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetCount() : int">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SetCount(int) : void">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="0" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="Automat">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="83" />
+                              <Metric Name="CyclomaticComplexity" Value="11" />
+                              <Metric Name="ClassCoupling" Value="7" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="24" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Automat(int)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="14">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="66" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="5" />
+                                    <Metric Name="LinesOfCode" Value="8" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GotApplication() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="26">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="94" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="31">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="94" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="36">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="84" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SetState(IState) : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="42">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="95" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetWaitingState() : IState" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="47">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetGotApplicationState() : IState" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="52">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetApartmentRentedState() : IState" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="57">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetFullyRentedState() : IState" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="62">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetCount() : int" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="67">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="SetCount(int) : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\Automat.cs" Line="72">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="95" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="GotApplicationState">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="78" />
+                              <Metric Name="CyclomaticComplexity" Value="7" />
+                              <Metric Name="ClassCoupling" Value="5" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="16" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="GotApplicationState(IAutomat)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\GotApplicationState.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="77" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="4" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GotApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\GotApplicationState.cs" Line="17">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\GotApplicationState.cs" Line="22">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="66" />
+                                    <Metric Name="CyclomaticComplexity" Value="3" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="7" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\GotApplicationState.cs" Line="38">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\GotApplicationState.cs" Line="43">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="WaitingState">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="86" />
+                              <Metric Name="CyclomaticComplexity" Value="5" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="11" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="WaitingState(IAutomat)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\WaitingState.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GotApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\WaitingState.cs" Line="13">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="81" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="3" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\WaitingState.cs" Line="19">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\WaitingState.cs" Line="24">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\WaitingState.cs" Line="29">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                        <Type Name="FullyRentedState">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="88" />
+                              <Metric Name="CyclomaticComplexity" Value="5" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="10" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="FullyRentedState(IAutomat)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\FullyRentedState.cs" Line="7">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="87" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GotApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\FullyRentedState.cs" Line="13">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\FullyRentedState.cs" Line="18">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\FullyRentedState.cs" Line="23">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : string" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\AfterRefactor\FullyRentedState.cs" Line="28">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="91" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="2" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="StatePattern">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="84" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Program">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="84" />
+                              <Metric Name="CyclomaticComplexity" Value="2" />
+                              <Metric Name="ClassCoupling" Value="2" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="5" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Main(string[]) : void" File="D:\ProtoTypes\StatePattern\StatePattern\Program.cs" Line="10">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="76" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="Program()">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="100" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="0" />
+                                    <Metric Name="LinesOfCode" Value="1" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+                  <Namespace Name="StatePattern.Pattern.BeforeRefactor">
+                     <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="23" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="DepthOfInheritance" Value="1" />
+                        <Metric Name="LinesOfCode" Value="51" />
+                     </Metrics>
+                     <Types>
+                        <Type Name="Automat">
+                           <Metrics>
+                              <Metric Name="MaintainabilityIndex" Value="64" />
+                              <Metric Name="CyclomaticComplexity" Value="23" />
+                              <Metric Name="ClassCoupling" Value="4" />
+                              <Metric Name="DepthOfInheritance" Value="1" />
+                              <Metric Name="LinesOfCode" Value="51" />
+                           </Metrics>
+                           <Members>
+                              <Member Name="Automat(int)" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\BeforeRefactor\Automat.cs" Line="14">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="74" />
+                                    <Metric Name="CyclomaticComplexity" Value="1" />
+                                    <Metric Name="ClassCoupling" Value="3" />
+                                    <Metric Name="LinesOfCode" Value="4" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="GetApplication() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\BeforeRefactor\Automat.cs" Line="23">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="67" />
+                                    <Metric Name="CyclomaticComplexity" Value="5" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="10" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="CheckApplication() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\BeforeRefactor\Automat.cs" Line="43">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="58" />
+                                    <Metric Name="CyclomaticComplexity" Value="7" />
+                                    <Metric Name="ClassCoupling" Value="2" />
+                                    <Metric Name="LinesOfCode" Value="16" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="RentApartment() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\BeforeRefactor\Automat.cs" Line="74">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="65" />
+                                    <Metric Name="CyclomaticComplexity" Value="5" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="11" />
+                                 </Metrics>
+                              </Member>
+                              <Member Name="DispenseKeys() : void" File="D:\ProtoTypes\StatePattern\StatePattern\Pattern\BeforeRefactor\Automat.cs" Line="95">
+                                 <Metrics>
+                                    <Metric Name="MaintainabilityIndex" Value="67" />
+                                    <Metric Name="CyclomaticComplexity" Value="5" />
+                                    <Metric Name="ClassCoupling" Value="1" />
+                                    <Metric Name="LinesOfCode" Value="10" />
+                                 </Metrics>
+                              </Member>
+                           </Members>
+                        </Type>
+                     </Types>
+                  </Namespace>
+               </Namespaces>
+            </Module>
+         </Modules>
+      </Target>
+   </Targets>
+</CodeMetricsReport>

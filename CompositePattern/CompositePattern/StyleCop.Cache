@@ -1,0 +1,24 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="1407488315">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 19:53:54</timestamp>
+      <milliseconds>697</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 19:53:09</timestamp>
+    <milliseconds>253</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 19:53:54</timestamp>
+      <milliseconds>697</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 19:54:12</timestamp>
+    <milliseconds>534</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

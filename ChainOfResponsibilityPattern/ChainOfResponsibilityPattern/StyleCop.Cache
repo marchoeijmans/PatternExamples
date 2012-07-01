@@ -1,0 +1,69 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:29:17</timestamp>
+    <milliseconds>84</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1863646682">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="HelpConstant.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:47:09</timestamp>
+    <milliseconds>556</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PresentationLayer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:44:26</timestamp>
+    <milliseconds>6</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ResourceLayer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:46:20</timestamp>
+    <milliseconds>9</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:48:38</timestamp>
+    <milliseconds>860</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="BusinessLayer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:44:33</timestamp>
+    <milliseconds>34</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IHelp.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/19/2011 12:21:40</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/19/2011 12:45:01</timestamp>
+    <milliseconds>683</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

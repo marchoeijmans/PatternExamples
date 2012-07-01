@@ -1,0 +1,63 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/09/2012 21:39:45</timestamp>
+      <milliseconds>614</milliseconds>
+    </settings>
+    <timestamp>01/09/2012 21:45:54</timestamp>
+    <milliseconds>989</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/09/2012 21:39:45</timestamp>
+      <milliseconds>614</milliseconds>
+    </settings>
+    <timestamp>01/09/2012 21:45:54</timestamp>
+    <milliseconds>786</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1737820993">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="CourseLevels.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/09/2012 21:39:45</timestamp>
+      <milliseconds>614</milliseconds>
+    </settings>
+    <timestamp>01/09/2012 21:46:43</timestamp>
+    <milliseconds>171</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
+        <context>Fields must be declared with private access. Use properties to expose fields.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
+        <context>Fields must be declared with private access. Use properties to expose fields.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
+        <context>Fields must be declared with private access. Use properties to expose fields.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
+        <context>Fields must be declared with private access. Use properties to expose fields.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Course.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/09/2012 21:39:45</timestamp>
+      <milliseconds>614</milliseconds>
+    </settings>
+    <timestamp>01/09/2012 21:46:43</timestamp>
+    <milliseconds>171</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

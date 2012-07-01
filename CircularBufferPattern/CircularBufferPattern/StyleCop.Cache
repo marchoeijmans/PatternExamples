@@ -1,0 +1,33 @@
+<stylecopresultscache>
+  <version>11</version>
+  <project key="-1029806371">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="CircularBuffer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 16:24:34</timestamp>
+      <milliseconds>529</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 16:26:54</timestamp>
+    <milliseconds>988</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 16:24:34</timestamp>
+      <milliseconds>529</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 16:26:37</timestamp>
+    <milliseconds>867</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 16:24:34</timestamp>
+      <milliseconds>529</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 16:26:38</timestamp>
+    <milliseconds>51</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

@@ -1,0 +1,69 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="Shop.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:32</timestamp>
+    <milliseconds>489</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Purchase.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:32</timestamp>
+    <milliseconds>391</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Exit.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:32</timestamp>
+    <milliseconds>194</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Welcome.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:32</timestamp>
+    <milliseconds>569</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:03</timestamp>
+    <milliseconds>994</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:32</timestamp>
+    <milliseconds>658</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1069698764">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Mediator.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>01/07/2012 15:19:55</timestamp>
+      <milliseconds>805</milliseconds>
+    </settings>
+    <timestamp>01/07/2012 15:29:44</timestamp>
+    <milliseconds>383</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

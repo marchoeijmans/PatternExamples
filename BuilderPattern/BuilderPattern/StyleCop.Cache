@@ -1,0 +1,87 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:30:52</timestamp>
+    <milliseconds>720</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AutomotiveRobotBuilder.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:32:00</timestamp>
+    <milliseconds>74</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Actions.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:31:59</timestamp>
+    <milliseconds>860</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AutomotiveRobotBuildable.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:31:59</timestamp>
+    <milliseconds>962</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CookingRobotBuildable.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:32:00</timestamp>
+    <milliseconds>197</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IRobotBuilder.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:32:00</timestamp>
+    <milliseconds>449</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CookingRobotBuilder.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:32:00</timestamp>
+    <milliseconds>314</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IRobotBuildable.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:32:00</timestamp>
+    <milliseconds>380</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="1355274497">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 20:25:01</timestamp>
+      <milliseconds>907</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 22:40:27</timestamp>
+    <milliseconds>870</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

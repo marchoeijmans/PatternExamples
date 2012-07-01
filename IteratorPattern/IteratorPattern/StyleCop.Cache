@@ -1,0 +1,69 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="Division.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:48:17</timestamp>
+    <milliseconds>696</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DivisionIterator.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:47:55</timestamp>
+    <milliseconds>384</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VicePresident.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:47:55</timestamp>
+    <milliseconds>606</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:47:55</timestamp>
+    <milliseconds>668</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:47:20</timestamp>
+    <milliseconds>679</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="311764087">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="IVicePresidentIterator.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:48:38</timestamp>
+    <milliseconds>154</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SalesDivision.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/21/2011 11:20:06</timestamp>
+      <milliseconds>984</milliseconds>
+    </settings>
+    <timestamp>12/21/2011 16:48:31</timestamp>
+    <milliseconds>766</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

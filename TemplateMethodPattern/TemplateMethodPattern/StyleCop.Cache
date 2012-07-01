@@ -1,0 +1,78 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="Robot.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 17:05:45</timestamp>
+    <milliseconds>150</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="300887949">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AutomativeRobot.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:54</timestamp>
+    <milliseconds>245</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CookingRobot.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:41</timestamp>
+    <milliseconds>40</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="RobotTemplate.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:54</timestamp>
+    <milliseconds>974</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="RobotHookTemplate.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:54</timestamp>
+    <milliseconds>860</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:55</timestamp>
+    <milliseconds>67</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:41</timestamp>
+    <milliseconds>836</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CoockingHookRobot.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>12/20/2011 16:58:50</timestamp>
+      <milliseconds>649</milliseconds>
+    </settings>
+    <timestamp>12/20/2011 20:16:54</timestamp>
+    <milliseconds>496</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
